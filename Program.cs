@@ -26,6 +26,12 @@ namespace while_foreach // Note: actual namespace depends on the project name.
                 Console.Write(karakter);
                 karakter++;
             }
+            Console.WriteLine("**** Foreach ****");
+            string[] arabalar = {"Bmw", "Ford", "Toyota", "Nissan"};
+            foreach (var araba in arabalar)
+            {
+                Console.WriteLine(araba);
+            }
         }
     }
 }
